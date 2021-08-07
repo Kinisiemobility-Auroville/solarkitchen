@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include solarkitchen *.css
+recursive-include solarkitchen *.csv
+recursive-include solarkitchen *.html
+recursive-include solarkitchen *.ico
+recursive-include solarkitchen *.js
+recursive-include solarkitchen *.json
+recursive-include solarkitchen *.md
+recursive-include solarkitchen *.png
+recursive-include solarkitchen *.py
+recursive-include solarkitchen *.svg
+recursive-include solarkitchen *.txt
+recursive-exclude solarkitchen *.pyc
